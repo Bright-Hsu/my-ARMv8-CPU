@@ -1,6 +1,24 @@
 # my-ARMv8-CPU
 an ARMv8-based five pipeline CPU
 
+## 一. 实验目的
+
+1. 综合运用Verilog进行复杂系统设计。
+
+2. 深刻理解计算机系统硬件原理。
+
+## 二. 实验内容
+
+1. 设计一个基于ARM指令集的CPU。
+
+2. CPU需要包含寄存器组、RAM模块、ALU模块、指令译码模块。
+
+3. 该CPU能运行基本的汇编指令，包括`LDUR`,`STUR`,`ADD`,`SUB`,`ORR`,`AND`,`CBZ`,`B`, `NOP`。
+
+4. 实现多核，SIMD或其他现代CPU的高级功能，参考教材*Computer Organization and Design: The Hardware Software Interface, ARM® Edition第6章*（可选，加分项）。
+
+## 三. 设计原理详解
+
 参考***计算机组成与设计 硬件软件接口  ARM版*** 与教材 ***Computer Organization and Design: The Hardware Software Interface, ARM® Edition*** ，我实现了基于**ARMv8**核心指令集的五级流水CPU，支持四类指令，共8条，指令如下：
 
 - 存储器访问指令，`LDUR`和`STUR`；
