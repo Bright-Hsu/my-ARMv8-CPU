@@ -3,6 +3,7 @@ raw_instruction = input('\n请输入ARMv8指令: ')
 # 将汇编指令分割
 formatted_instruction = raw_instruction.replace(' ', ',').replace(']', '').replace('[', '')
 # 将指令用','分割成list
+# 使用filter过滤
 instruction_list = list(filter(None, formatted_instruction.split(',')))
 
 # 指令与二进制的OPcode对应
