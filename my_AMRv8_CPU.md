@@ -63,7 +63,7 @@
 
 虽然存储器不是CPU的部件，但他与CPU联系十分密切。任何指令的执行，都需要先从指令存储器中取出指令。指令存储器类似于制度存储器，可以把它当做一个组合逻辑单元，任意时刻的输出都反应了输入地址所指单元的内容。指令存储器示意图如下：
 
-![image-20220110125528444](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220110125528444.png)
+![IM](https://github.com/Bright-Hsu/my-ARMv8-CPU/blob/main/%E5%8E%9F%E7%90%86%E5%9B%BE/%E6%8C%87%E4%BB%A4%E5%AD%98%E5%82%A8%E5%99%A8.png)
 
 可以看到其逻辑教简单，因此模块代码如下：
 
