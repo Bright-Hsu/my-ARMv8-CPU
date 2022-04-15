@@ -192,7 +192,7 @@ endmodule
 
 作为计算机，必不可少的就是存储器，它可以存储大量数据。为CPU提供需要运算的数据并存储进去。LDUR和STUR指令就需要访问数据存储器。数据存储器是一个状态单元，两个输入为地址和待写入的 数据，一个输出为读出的结果。读、写控制信号都是独立的，但任意时钟只能激活其中—个。数据存储器的示意图如下：
 
-![image-20220110132419367](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220110132419367.png)
+![image-20220110132419367](https://github.com/Bright-Hsu/my-ARMv8-CPU/blob/main/%E5%8E%9F%E7%90%86%E5%9B%BE/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8%E5%99%A8.png)
 
 数据存储器的模块代码如下：
 
