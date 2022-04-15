@@ -150,7 +150,7 @@ endmodule
 
 ALU有两个64位的数据输入，产生一个64位的运算结果，并且有1位输出信号指出结果是否为0。ALU需要有4位控制信号，指明ALU进行的运算操作，该4位信号由指令得出。ALU示意图如下：
 
-![image-20220110131607168](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220110131607168.png)
+![ALU](https://github.com/Bright-Hsu/my-ARMv8-CPU/blob/main/%E5%8E%9F%E7%90%86%E5%9B%BE/ALU.png)
 
 为了方便使用，我这里的ALU运算单元都调用的是自带的运算符。模块代码如下：
 
