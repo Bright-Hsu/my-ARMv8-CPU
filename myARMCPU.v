@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: XJTU
+// Engineer: Liang Xu
 // 
 // Create Date: 2021/12/24 15:29:03
 // Design Name: 
