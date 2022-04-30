@@ -19,7 +19,7 @@ an ARMv8-based five pipeline CPU
 
 ## 三. 设计原理详解
 
-参考***计算机组成与设计 硬件软件接口  ARM版*** 与教材 ***Computer Organization and Design: The Hardware Software Interface, ARM® Edition*** ，我实现了基于**ARMv8**核心指令集的五级流水CPU，支持四类指令，共8条，指令如下：
+参考***计算机组成与设计 硬件软件接口  ARM版*** 与教材 ***Computer Organization and Design: The Hardware Software Interface, ARM® Edition*** ，我实现了基于**ARMv8核心指令集**的五级流水CPU，支持四类指令，共8条，指令如下：
 
 - 存储器访问指令，`LDUR`和`STUR`；
 - 算术逻辑指令，`ADD`、`SUB`、`AND`、`ORR`；
