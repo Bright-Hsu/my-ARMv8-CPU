@@ -87,7 +87,7 @@ module Instr_Memory  //指令存储器
     Data[5] = 8'h40;
     Data[6] = 8'h01;
     Data[7] = 8'ha3;
-	// 或者用另一种方式，使用readmemh函数用.dat文件初始化
+    // 或者用另一种方式，使用readmemh函数用.dat文件初始化
     // $readmemh("c:\\instructions.dat",Data);
   end
 
