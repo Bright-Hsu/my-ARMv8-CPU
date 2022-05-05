@@ -1,5 +1,6 @@
 # 输入ARMv8汇编指令
 raw_instruction = input('\n请输入ARMv8指令: ')
+
 # 将汇编指令分割
 formatted_instruction = raw_instruction.replace(' ', ',').replace(']', '').replace('[', '')
 # 将指令用','分割成list
