@@ -17,6 +17,7 @@ OPCODES = {
     'CBZ'  : ['10110100'],
     'B'    : ['000101']
 }
+
 # 先加入已知的机器码
 machine_code = OPCODES[instruction_list[0]][0]
 
